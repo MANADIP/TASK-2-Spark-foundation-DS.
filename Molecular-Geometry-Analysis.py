@@ -1,3 +1,11 @@
+#MolMolecular-Geometry-Analysis
+# 1 Bond Length 
+# 2 Bond angle 
+# 3 Out-of-Plane Angles
+# 4 Torsion/Dihedral Angles
+# 5 Center-of-Mass Translation
+# 6 Principal Moments of Inertia
+# 7 Rotational Constants
 import math
 import numpy as np 
 an2masses = {
