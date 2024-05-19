@@ -209,7 +209,7 @@ with open('data1.dat', 'r') as input_file:
         print("Molecule is an asymmetric top")
 
 
-import numpy as np
+# calculation of rotational constant
 h = 6.6260755E-34  
 m = 1.6605402E-27  
 r = 0.529177249E-10 
@@ -220,5 +220,5 @@ A = B1 / evals[0]
 B = B1 / evals[1]
 C = B1 / evals[2]
 print("\nRotational constants (cm⁻¹):")
-print(f"\tA = {A:.6e} cm⁻¹\t B = {B:.6e} cm⁻¹\t C = {C:.6e} cm⁻¹")
+print(f"\tA = {A} cm⁻¹\t B = {B} cm⁻¹\t C = {C} cm⁻¹")
 
